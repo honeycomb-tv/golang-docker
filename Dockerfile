@@ -5,7 +5,7 @@ ENV GLIDE_RELEASE=0.10.2
 
 RUN apk update 
 
-RUN apk add openssl samba-client
+RUN apk add openssl git samba-client
 
 WORKDIR /home
 
