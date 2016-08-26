@@ -1,7 +1,7 @@
 FROM golang:1.6.2-alpine
 MAINTAINER george.macrorie@honeycomb.tv 
 
-ENV GLIDE_RELEASE=0.10.2
+ENV GLIDE_RELEASE v0.12.0
 
 RUN apk update 
 
